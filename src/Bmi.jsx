@@ -53,7 +53,9 @@ const Bmi = () => {
   return (
     <div className="bmi-container">
       <div className="inner-container">
-        <div className="box"></div>
+        <div className="box">
+          
+        </div>
         <div className="data">
           <h1>BMI Calculator</h1>
           {errorMessage && <p className="error">{errorMessage}</p>}
